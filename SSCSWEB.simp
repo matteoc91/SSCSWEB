@@ -9,17 +9,17 @@
     <entity-names>
       <counter>
         <item-type stereotype="" type="CrcCard" />
-        <value>3</value>
+        <value>4</value>
       </counter>
     </entity-names>
     <entity-ids>
       <counter>
         <item-type stereotype="" type="CrcCard" />
-        <value>4</value>
+        <value>5</value>
       </counter>
       <counter>
         <item-type stereotype="" type="UmlClass" />
-        <value>4</value>
+        <value>5</value>
       </counter>
       <counter>
         <item-type stereotype="" type="AbstractElementGroup" />
@@ -78,6 +78,9 @@
     <item id="di692254385539667713" cid="C003" type="class" name="CrcCard3" style-class="" visibility="package" creator="Pe611a929faf34db58307822b151be74b" creation-date="11/19/2015 11:39:43">
       <style class="default" />
     </item>
+    <item id="di495303900233339227" cid="C004" type="class" name="provamarco" style-class="" visibility="package" creation-date="11/19/2015 12:17:01">
+      <style class="default" />
+    </item>
   </items>
   <models>
     <model id="pa47054281a194b1ab65415c18a67940a_688270611" name="Model 1" namespace="" order-index="1" expanded="true">
@@ -105,7 +108,7 @@
           </authors>
           <description />
           <creation-date>11/19/2015 11:34:52</creation-date>
-          <change-date>11/19/2015 11:40:54</change-date>
+          <change-date>11/19/2015 12:17:01</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -125,10 +128,24 @@
               </collaborators>
             </crc-card>
           </item>
+          <item id="di489145094796172441" cid="CRC004" type="crc-card" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="11/19/2015 12:17:01">
+            <style class="default" />
+            <crc-card>
+              <class-ref>di495303900233339227</class-ref>
+              <description />
+              <superclass id="c5742e6de9f004a7f86e84dd79bf2c499332" name="" />
+              <subclasses />
+              <responsibilities />
+              <collaborators />
+            </crc-card>
+          </item>
         </abstract-items>
         <layer name="Default" visible="true" enabled="true" locked="false">
           <item id="di416326033855100098" iid="29930b0c9a334ecdb117ef0d63a43b3f" creation-date="11/19/2015 11:35:12" order-index="0" type="crc-card">
             <layout ax="33" ay="50" awidth="300" aheight="200" x="33" y="50" width="300" height="200" angle="0" />
+          </item>
+          <item id="di489145094796172441" iid="5900eb9fba034e3db96aeecca13d2a80" creation-date="11/19/2015 12:17:01" order-index="1" type="crc-card">
+            <layout ax="453" ay="68" awidth="300" aheight="200" x="453" y="68" width="300" height="200" angle="0" />
           </item>
         </layer>
       </diagram>
